@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+}
+
+.inputContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border: 0.1rem solid #b6c5ff;
+  border-radius: 0.4rem;
+  padding: 0.3rem;
+}
+.inputBox {
+  background-color: transparent;
+  color: #b6c5ff;
+  outline: none;
+  border: none;
+  width: 90%;
+  font-size: 1rem;
+}
+.searchBtn {
+  border: none;
+  background-color: transparent;
+  color: #b6c5ff;
+  outline: none;
+  font-size: 1.2rem;
+}

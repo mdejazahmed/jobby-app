@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+}
+.filterGroupContainer {
+  padding: 1rem;
+}
+.filterGroupCard {
+  margin-top: 2rem;
+  border-top: 0.2rem solid white;
+}
+.filterHeading {
+  font-size: 1.6rem;
+  margin-top: 1rem;
+}
+.filterItemListContainer {
+  margin-top: 2rem;
+  list-style: none;
+}
+.filterItem {
+  margin-top: 0.5rem;
+}
+.input {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+.label {
+  font-size: 1.2rem;
+  margin-left: 0.4rem;
+}

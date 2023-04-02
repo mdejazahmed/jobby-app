@@ -1,0 +1,67 @@
+.link {
+  text-decoration: none;
+  color: white;
+}
+.jobCard {
+  display: flex;
+  flex-direction: column;
+  background-color: #272727;
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+  border-radius: 1rem;
+}
+.topContainer {
+  display: flex;
+  align-items: stretch;
+}
+.companyLogo {
+  width: 6rem;
+}
+.topLeft {
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.jobRole {
+  font-size: 1.6rem;
+}
+.rating {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+}
+.midContainer {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.leftMid {
+  display: flex;
+  align-items: center;
+}
+.midPara {
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+  margin-left: 1rem;
+}
+.span {
+  font-size: 1rem;
+  margin-left: 0.4rem;
+}
+.rightMid {
+  font-size: 1.2rem;
+}
+.descContainer {
+  margin-top: 1.5rem;
+}
+.descHeading {
+  font-size: 1.6rem;
+}
+.desc {
+  margin-top: 1rem;
+  font-size: 1.3rem;
+}

@@ -1,0 +1,27 @@
+.profileContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.profileCard {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  border-radius: 1.2rem;
+  height: 14rem;
+  width: 80%;
+}
+.profileImg {
+  width: 20%;
+}
+.name {
+  color: #6366f1;
+}
+.bio {
+  color: #2c364c;
+}

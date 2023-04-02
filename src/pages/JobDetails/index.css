@@ -1,0 +1,141 @@
+.jobDetailsContainer {
+  background-color: black;
+  height: 100%;
+}
+.jobDetailsWrapper {
+  padding: 2rem;
+  height: 100%;
+}
+.loader-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.topCard {
+  background-color: #272727;
+  padding: 1.5rem;
+  color: white;
+  border-radius: 2rem;
+}
+.topContainer {
+  display: flex;
+  align-items: stretch;
+}
+.companyLogo {
+  width: 6rem;
+}
+.topLeft {
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.jobRole {
+  font-size: 1.6rem;
+}
+.rating {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+}
+.midContainer {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.leftMid {
+  display: flex;
+  align-items: center;
+}
+.midPara {
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+  margin-left: 1rem;
+}
+.span {
+  font-size: 1rem;
+  margin-left: 0.4rem;
+}
+.rightMid {
+  font-size: 1.2rem;
+}
+.descContainer {
+  margin-top: 1.5rem;
+}
+.headingLinkContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.descHeading {
+  font-size: 1.6rem;
+}
+.desc {
+  margin-top: 1rem;
+  font-size: 1.3rem;
+}
+.anchor {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: blueviolet;
+  display: flex;
+  align-items: center;
+}
+.skillsContainer {
+  margin-top: 2rem;
+}
+.skillItemContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.skillItem {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+.lifeAtCompanyContainer {
+  margin-top: 2rem;
+}
+.lifeAtComParaContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.lifeAtComPara {
+  font-size: 1.2rem;
+}
+
+.similarJobsContainer {
+  margin-top: 2rem;
+}
+.similarJobsCardContainer {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+.similarJobHeading {
+  color: white;
+  margin-bottom: 2rem;
+}
+.similarJobCard {
+  margin-left: 2rem;
+}
+@media screen and (min-width: 768px) {
+  .skillItem {
+    width: 30%;
+  }
+  .lifeAtComParaContainer {
+    flex-direction: row;
+  }
+  .similarJobCard {
+    width: 30rem;
+  }
+}

@@ -1,0 +1,80 @@
+.navContainer {
+  background-color: #272727;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mobileNavWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  width: 90vw;
+}
+@media screen and (min-width: 768px) {
+  .mobileNavWrapper {
+    display: none;
+  }
+}
+.mobileLogo {
+  width: 6rem;
+}
+.mobileNavItemContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 40vw;
+  list-style: none;
+  color: white;
+}
+.link {
+  text-decoration: none;
+}
+.mobileNavBtn {
+  border: none;
+  background-color: transparent;
+}
+.mobileNavBtn {
+  color: white;
+  font-size: 1.4rem;
+}
+.largeWrapper {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  justify-content: space-between;
+  padding: 1rem;
+}
+@media screen and (max-width: 767px) {
+  .largeWrapper {
+    display: none;
+  }
+}
+.largeLogo {
+  width: 8rem;
+}
+.lgNavItemContainer {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.lgNavItem {
+  margin-left: 0.4rem;
+  margin-right: 0.4rem;
+}
+.lgNavBtn {
+  border: none;
+  background-color: transparent;
+  font-size: 1.2rem;
+  color: white;
+}
+.lgLogoutBtn {
+  padding: 0.5rem;
+  background-color: #6366f1;
+  border: none;
+  outline: none;
+  border-radius: 0.2rem;
+  font-size: 0.8rem;
+  color: white;
+  width: 6rem;
+}
